@@ -1,0 +1,2 @@
+execute if block ~ ~-1 ~ minecraft:vault[vault_state=inactive,ominous=false] positioned ~ ~-1 ~ run function reset_trial_vaults:reset_vault
+execute if block ~ ~-1 ~ minecraft:vault[vault_state=inactive,ominous=true] positioned ~ ~-1 ~ run function reset_trial_vaults:reset_ominous_vault

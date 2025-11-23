@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "minecraft:phantom_membrane",
+    "E": "minecraft:dragon_egg"
+  },
+  "pattern": [
+    "MEM",
+    "M M",
+    "M M"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:elytra"
+  }
+}

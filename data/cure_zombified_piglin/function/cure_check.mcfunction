@@ -1,0 +1,2 @@
+# Look for nearby zombified_piglin affected by weakness with a golden_carrot in main hand
+execute as @a at @s if entity @e[type=zombified_piglin, tag=!curing, distance=..64, nbt={active_effects:[{id:"minecraft:weakness"}], equipment:{mainhand:{count:1, id:"minecraft:golden_carrot"}}}] run function cure_zombified_piglin:cure_start

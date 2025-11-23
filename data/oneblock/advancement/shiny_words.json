@@ -1,0 +1,23 @@
+{
+    "parent": "oneblock:arcane_ikea",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {
+            "text": "Shiny Words"
+        },
+        "description": {
+            "text": "(Enchant something) You put sparkly text on an item. Science!"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enchant": {
+            "trigger": "minecraft:enchanted_item"
+        }
+    }
+}

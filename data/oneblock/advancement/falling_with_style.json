@@ -1,0 +1,23 @@
+{
+    "parent": "oneblock:oneblock_ultimate",
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "title": {
+            "text": "Falling with Style"
+        },
+        "description": {
+            "text": "(Fall into the void) Your sacrifice will make zombies spawn. Probably"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "die": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    }
+}

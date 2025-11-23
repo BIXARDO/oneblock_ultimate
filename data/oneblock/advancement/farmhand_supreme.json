@@ -1,0 +1,93 @@
+{
+    "parent": "oneblock:wandering_business",
+    "display": {
+        "icon": {
+            "id": "minecraft:wheat"
+        },
+        "title": {
+            "text": "Farmhand Supreme"
+        },
+        "description": {
+            "text": "(Obtain all crops) Congratulations, you’re a OneBlock horticulturist"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wheat_seeds"
+                    },
+                    {
+                        "items": "minecraft:melon_seeds"
+                    },
+                    {
+                        "items": "minecraft:pumpkin_seeds"
+                    },
+                    {
+                        "items": "minecraft:potato"
+                    },
+                    {
+                        "items": "minecraft:carrot"
+                    },
+                    {
+                        "items": "minecraft:beetroot_seeds"
+                    },
+                    {
+                        "items": "minecraft:cocoa_beans"
+                    },
+                    {
+                        "items": "minecraft:sugar_cane"
+                    },
+                    {
+                        "items": "minecraft:sweet_berries"
+                    },
+                    {
+                        "items": "minecraft:glow_berries"
+                    },
+                    {
+                        "items": "minecraft:kelp"
+                    },
+                    {
+                        "items": "minecraft:torchflower_seeds"
+                    },
+                    {
+                        "items": "minecraft:pitcher_pod"
+                    },
+                    {
+                        "items": "minecraft:nether_wart"
+                    },
+                    {
+                        "items": "minecraft:sea_pickle"
+                    },
+                    {
+                        "items": "minecraft:bamboo"
+                    },
+                    {
+                        "items": "minecraft:cactus"
+                    },
+                    {
+                        "items": "minecraft:red_mushroom"
+                    },
+                    {
+                        "items": "minecraft:brown_mushroom"
+                    },
+                    {
+                        "items": "minecraft:crimson_fungus"
+                    },
+                    {
+                        "items": "minecraft:warped_fungus"
+                    },
+                    {
+                        "items": "minecraft:chorus_flower"
+                    }
+                ]
+            }
+        }
+    }
+}

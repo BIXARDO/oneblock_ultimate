@@ -1,0 +1,23 @@
+{
+    "parent": "oneblock:golden_opportunity",
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_apple"
+        },
+        "title": {
+            "text": "Professional Therapist"
+        },
+        "description": {
+            "text": "(Heal a villager) Free them from pain... but not from working"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cure": {
+            "trigger": "minecraft:cured_zombie_villager"
+        }
+    }
+}

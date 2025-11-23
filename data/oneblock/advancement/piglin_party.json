@@ -1,0 +1,36 @@
+{
+    "parent": "oneblock:vacation_in_fire",
+    "display": {
+        "icon": {
+            "id": "minecraft:polished_blackstone_bricks"
+        },
+        "title": {
+            "text": "Piglin Party"
+        },
+        "description": {
+            "text": "(Go to the bastion remnant) Gold won't save you here"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:bastion_remnant"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

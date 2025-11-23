@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:tree_liberation",
+    "display": {
+        "icon": {
+            "id": "minecraft:dirt"
+        },
+        "title": {
+            "text": "Mother of All Blocks"
+        },
+        "description": {
+            "text": "(Obtain a dirt block) Congratulations, it’s everywhere… just not here"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dirt"
+                    }
+                ]
+            }
+        }
+    }
+}

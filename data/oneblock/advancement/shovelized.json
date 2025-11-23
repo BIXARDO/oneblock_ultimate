@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:first_victim",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_shovel"
+        },
+        "title": {
+            "text": "Shovelized!"
+        },
+        "description": {
+            "text": "(Obtain a shovel) You’ve acquired the holy artifact. Time to farm the sky"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_shovel"
+                    }
+                ]
+            }
+        }
+    }
+}

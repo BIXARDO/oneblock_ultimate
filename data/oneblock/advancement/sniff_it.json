@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:wandering_business",
+    "display": {
+        "icon": {
+            "id": "minecraft:sniffer_egg"
+        },
+        "title": {
+            "text": "Sniff It"
+        },
+        "description": {
+            "text": "(Obtain a sniffer egg) Time to sniff the void?"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sniffer_egg"
+                    }
+                ]
+            }
+        }
+    }
+}

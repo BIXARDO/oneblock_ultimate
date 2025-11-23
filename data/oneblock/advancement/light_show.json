@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:bone_collector",
+    "display": {
+        "icon": {
+            "id": "minecraft:beacon"
+        },
+        "title": {
+            "text": "Light Show"
+        },
+        "description": {
+            "text": "(Light a full beacon) Everything looks cooler with beams. Even dirt"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "light": {
+            "trigger": "minecraft:construct_beacon",
+            "conditions": {
+                "level": 4
+            }
+        }
+    }
+}

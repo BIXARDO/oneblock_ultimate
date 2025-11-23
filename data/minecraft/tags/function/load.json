@@ -1,0 +1,12 @@
+{
+  "values": [
+    "oneblock:init_world",
+    "oneblock:init_end",
+    "magma_transform:tick",
+    "cure_zombified_piglin:tick",
+    "reset_trial_vaults:tick",
+    "wt_offer:load",
+    "keyghast:tick",
+    "skyvoid_vanilla_oneblock_starter:load"
+  ]
+}

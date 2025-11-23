@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:trophy_of_defiance",
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra"
+        },
+        "title": {
+            "text": "Wings of Freedom"
+        },
+        "description": {
+            "text": "(Obtain the elytra) The sky’s the limit… but your platform isn’t"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "oneblock:elytra"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "oneblock:falling_with_style",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_sword"
+        },
+        "title": {
+            "text": "First Victim"
+        },
+        "description": {
+            "text": "(Kill a mob) Finally, someone that's not you dies"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    }
+}

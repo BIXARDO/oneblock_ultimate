@@ -1,0 +1,81 @@
+{
+    "parent": "oneblock:rock_on",
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate_diamond_ore"
+        },
+        "title": {
+            "text": "Cheating the Mine"
+        },
+        "description": {
+            "text": "(Craft all ores) Digging? Never heard of her"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:coal_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_coal_ore"
+                    },
+                    {
+                        "items": "minecraft:copper_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_copper_ore"
+                    },
+                    {
+                        "items": "minecraft:iron_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_iron_ore"
+                    },
+                    {
+                        "items": "minecraft:gold_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_gold_ore"
+                    },
+                    {
+                        "items": "minecraft:emerald_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_emerald_ore"
+                    },
+                    {
+                        "items": "minecraft:lapis_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_lapis_ore"
+                    },
+                    {
+                        "items": "minecraft:redstone_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_redstone_ore"
+                    },
+                    {
+                        "items": "minecraft:diamond_ore"
+                    },
+                    {
+                        "items": "minecraft:deepslate_diamond_ore"
+                    },
+                    {
+                        "items": "minecraft:nether_quartz_ore"
+                    },
+                    {
+                        "items": "minecraft:nether_gold_ore"
+                    }
+                ]
+            }
+        }
+    }
+}

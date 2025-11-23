@@ -1,0 +1,23 @@
+{
+    "parent": "oneblock:tree_liberation",
+    "display": {
+        "icon": {
+            "id": "minecraft:red_bed"
+        },
+        "title": {
+            "text": "Horizontal Recharge"
+        },
+        "description": {
+            "text": "(Sleep on a bed) You can lie down… and ignore your floating block problems for a while"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sleep": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    }
+}

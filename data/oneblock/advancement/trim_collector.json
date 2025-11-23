@@ -1,0 +1,81 @@
+{
+    "parent": "oneblock:sniff_it",
+    "display": {
+        "icon": {
+            "id": "minecraft:eye_armor_trim_smithing_template"
+        },
+        "title": {
+            "text": "Trim Collector"
+        },
+        "description": {
+            "text": "(Obtain all type of armor trims) Now your armor can be judged as harshly as your floating block skills"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:eye_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:rib_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:vex_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:bolt_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:dune_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:flow_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:host_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:ward_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:wild_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:tide_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:coast_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:snout_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:spire_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:raiser_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:sentry_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:shaper_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:silence_armor_trim_smithing_template"
+                    },
+                    {
+                        "items": "minecraft:wayfinder_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    }
+}

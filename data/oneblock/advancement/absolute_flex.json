@@ -1,0 +1,39 @@
+{
+    "parent": "oneblock:premium_scrap",
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_chestplate"
+        },
+        "title": {
+            "text": "Absolute Flex"
+        },
+        "description": {
+            "text": "(Obtain full netherite armor) Now you are literally unstoppable… kind of"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet"
+                    },
+                    {
+                        "items": "minecraft:netherite_chestplate"
+                    },
+                    {
+                        "items": "minecraft:netherite_leggings"
+                    },
+                    {
+                        "items": "minecraft:netherite_boots"
+                    }
+                ]
+            }
+        }
+    }
+}

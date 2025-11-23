@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:mercantile_mayhem",
+    "display": {
+        "icon": {
+            "id": "minecraft:obsidian"
+        },
+        "title": {
+            "text": "Block of Forever"
+        },
+        "description": {
+            "text": "(Obtain obsidian) It’s dark, it’s strong, and it ruins pickaxes"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:obsidian"
+                    }
+                ]
+            }
+        }
+    }
+}

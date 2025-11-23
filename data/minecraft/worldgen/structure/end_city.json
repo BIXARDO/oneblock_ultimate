@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_end",
+  "step": "raw_generation",
+  "start_pool": "oneblock:oneblock_end_city/start",
+  "size": 1,
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 63
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}

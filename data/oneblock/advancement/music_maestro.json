@@ -1,0 +1,90 @@
+{
+    "parent": "oneblock:sniff_it",
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_creator"
+        },
+        "title": {
+            "text": "Music Maestro"
+        },
+        "description": {
+            "text": "(Obtain all music discs) A full collection of melodies to distract you from the void below"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_11"
+                    },
+                    {
+                        "items": "minecraft:music_disc_13"
+                    },
+                    {
+                        "items": "minecraft:music_disc_5"
+                    },
+                    {
+                        "items": "minecraft:music_disc_blocks"
+                    },
+                    {
+                        "items": "minecraft:music_disc_cat"
+                    },
+                    {
+                        "items": "minecraft:music_disc_chirp"
+                    },
+                    {
+                        "items": "minecraft:music_disc_creator"
+                    },
+                    {
+                        "items": "minecraft:music_disc_creator_music_box"
+                    },
+                    {
+                        "items": "minecraft:music_disc_far"
+                    },
+                    {
+                        "items": "minecraft:music_disc_lava_chicken"
+                    },
+                    {
+                        "items": "minecraft:music_disc_mall"
+                    },
+                    {
+                        "items": "minecraft:music_disc_mellohi"
+                    },
+                    {
+                        "items": "minecraft:music_disc_otherside"
+                    },
+                    {
+                        "items": "minecraft:music_disc_pigstep"
+                    },
+                    {
+                        "items": "minecraft:music_disc_precipice"
+                    },
+                    {
+                        "items": "minecraft:music_disc_relic"
+                    },
+                    {
+                        "items": "minecraft:music_disc_stal"
+                    },
+                    {
+                        "items": "minecraft:music_disc_strad"
+                    },
+                    {
+                        "items": "minecraft:music_disc_tears"
+                    },
+                    {
+                        "items": "minecraft:music_disc_wait"
+                    },
+                    {
+                        "items": "minecraft:music_disc_ward"
+                    }
+                ]
+            }
+        }
+    }
+}

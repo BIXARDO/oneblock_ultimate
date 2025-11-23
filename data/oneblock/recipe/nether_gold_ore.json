@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "minecraft:netherrack",
+    "R": "minecraft:gold_nugget"
+  },
+  "pattern": [
+    " R ",
+    "RSR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:nether_gold_ore"
+  }
+}

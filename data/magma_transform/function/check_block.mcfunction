@@ -1,0 +1,1 @@
+execute if predicate magma_transform:random_transform if block ~ ~ ~ minecraft:magma_block if block ~ ~-2 ~ minecraft:pointed_dripstone run function magma_transform:transform

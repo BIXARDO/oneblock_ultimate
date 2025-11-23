@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:snow_way_out",
+    "display": {
+        "icon": {
+            "id": "minecraft:emerald"
+        },
+        "title": {
+            "text": "Economy Speedrun"
+        },
+        "description": {
+            "text": "(Obtain emerald) Welcome to capitalism: OneBlock edition"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:emerald"
+                    }
+                ]
+            }
+        }
+    }
+}

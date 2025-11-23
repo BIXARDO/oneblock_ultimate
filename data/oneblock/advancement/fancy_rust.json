@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:liquid_asset",
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_ingot"
+        },
+        "title": {
+            "text": "Fancy Rust"
+        },
+        "description": {
+            "text": "(Obtain copper) Shiny, conductive… you can probably zap something with this"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

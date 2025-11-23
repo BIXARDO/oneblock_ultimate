@@ -1,0 +1,96 @@
+{
+    "parent": "oneblock:sniff_it",
+    "display": {
+        "icon": {
+            "id": "minecraft:burn_pottery_sherd"
+        },
+        "title": {
+            "text": "Ancient Dumpster Diver"
+        },
+        "description": {
+            "text": "(Obtain all pottery sherds) You’ve recovered every ancient fragment. Please wash your hands"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:burn_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:flow_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:howl_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:blade_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:heart_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:miner_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:sheaf_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:skull_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:snort_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:angler_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:archer_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:brewer_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:danger_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:friend_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:guster_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:prize_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:scrape_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:arms_up_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:mourner_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:shelter_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:explorer_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:heartbreak_pottery_sherd"
+                    },
+                    {
+                        "items": "minecraft:plenty_pottery_sherd"
+                    }
+                ]
+            }
+        }
+    }
+}

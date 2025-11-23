@@ -1,0 +1,36 @@
+{
+    "parent": "oneblock:magical_gps",
+    "display": {
+        "icon": {
+            "id": "minecraft:prismarine"
+        },
+        "title": {
+            "text": "Underwater Madness"
+        },
+        "description": {
+            "text": "(Go to the ocean monument) The driest ocean monument awaits!"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:monument"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

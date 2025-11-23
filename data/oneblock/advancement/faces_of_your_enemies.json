@@ -1,0 +1,45 @@
+{
+    "parent": "oneblock:peak_performance",
+    "display": {
+        "icon": {
+            "id": "minecraft:creeper_head"
+        },
+        "title": {
+            "text": "Faces of Your Enemies"
+        },
+        "description": {
+            "text": "(Obtain all heads) Every head, proudly displayed. Therapy might be cheaper"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dragon_head"
+                    },
+                    {
+                        "items": "minecraft:piglin_head"
+                    },
+                    {
+                        "items": "minecraft:zombie_head"
+                    },
+                    {
+                        "items": "minecraft:creeper_head"
+                    },
+                    {
+                        "items": "minecraft:skeleton_skull"
+                    },
+                    {
+                        "items": "minecraft:wither_skeleton_skull"
+                    }
+                ]
+            }
+        }
+    }
+}

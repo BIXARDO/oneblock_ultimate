@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:piglin_pain",
+    "display": {
+        "icon": {
+            "id": "minecraft:gold_ingot"
+        },
+        "title": {
+            "text": "Golden Opportunity"
+        },
+        "description": {
+            "text": "(Obtain gold) Shiny metal acquired. Piglins are already screaming"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_nugget"
+                    }
+                ]
+            }
+        }
+    }
+}

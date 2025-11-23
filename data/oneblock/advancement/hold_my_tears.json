@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:irony_of_survival",
+    "display": {
+        "icon": {
+            "id": "minecraft:cauldron"
+        },
+        "title": {
+            "text": "Hold my Tears"
+        },
+        "description": {
+            "text": "(Craft a cauldron) Soon, you’ll realize the sky is your supplier"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:cauldron"
+            }
+        }
+    }
+}

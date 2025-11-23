@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 1,
+    "spread": 1,
+    "distance": 41,
+    "preferred_biomes": "#minecraft:is_overworld",
+    "salt": 4815162342
+  },
+  "structures": [
+    {
+      "structure": "minecraft:swamp_hut",
+      "weight": 1
+    }
+  ]
+}

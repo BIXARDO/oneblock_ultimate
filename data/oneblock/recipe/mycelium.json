@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:podzol",
+    [
+      "minecraft:red_mushroom_block",
+      "minecraft:brown_mushroom_block"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mycelium"
+  }
+}

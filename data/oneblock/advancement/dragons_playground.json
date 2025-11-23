@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:endgame_prep",
+    "display": {
+        "icon": {
+            "id": "minecraft:end_stone"
+        },
+        "title": {
+            "text": "Dragon's Playground"
+        },
+        "description": {
+            "text": "(Go to the end) You’ll see the final boss… and maybe regret it"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_end"
+            }
+        }
+    }
+}

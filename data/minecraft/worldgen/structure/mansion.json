@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_overworld",
+  "step": "raw_generation",
+  "start_pool": "oneblock:oneblock_mansion/start",
+  "size": 1,
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 70
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:evoker",
+          "weight": 1,
+          "minCount": 2,
+          "maxCount": 3
+        },
+        {
+          "type": "minecraft:vindicator",
+          "weight": 2,
+          "minCount": 3,
+          "maxCount": 5
+        }
+      ]
+    }
+  }
+}
+
+
+
+
+

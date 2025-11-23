@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:tree_liberation",
+    "display": {
+        "icon": {
+            "id": "minecraft:crafting_table"
+        },
+        "title": {
+            "text": "Table of Wonders"
+        },
+        "description": {
+            "text": "(Craft a crafting table) You can now make tools without crying"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:crafting_table"
+            }
+        }
+    }
+}

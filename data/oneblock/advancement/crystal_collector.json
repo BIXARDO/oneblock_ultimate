@@ -1,0 +1,36 @@
+{
+    "parent": "oneblock:magical_gps",
+    "display": {
+        "icon": {
+            "id": "minecraft:amethyst_shard"
+        },
+        "title": {
+            "text": "Crystal Collector"
+        },
+        "description": {
+            "text": "(Go to the geode) Bling for your block. Shine responsibly"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:mineshaft"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

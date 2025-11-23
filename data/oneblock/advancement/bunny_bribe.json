@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:golden_opportunity",
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_carrot"
+        },
+        "title": {
+            "text": "Bunny Bribe"
+        },
+        "description": {
+            "text": "(Craft a golden carrot) Delicious, even a zombified piglin would take one of these"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:golden_carrot"
+            }
+        }
+    }
+}

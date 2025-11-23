@@ -1,0 +1,23 @@
+{
+    "parent": "oneblock:liquid_asset",
+    "display": {
+        "icon": {
+            "id": "minecraft:fishing_rod"
+        },
+        "title": {
+            "text": "Fish a Fish"
+        },
+        "description": {
+            "text": "(Fish something with the rod) Fishing on one block. Totally normal behavior"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:fishing_rod_hooked"
+        }
+    }
+}

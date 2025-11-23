@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:peak_performance",
+    "display": {
+        "icon": {
+            "id": "minecraft:dragon_egg"
+        },
+        "title": {
+            "text": "Trophy of Defiance"
+        },
+        "description": {
+            "text": "(Obtain the dragon egg) Very nice and that, but now what do we do with it?"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dragon_egg"
+                    }
+                ]
+            }
+        }
+    }
+}

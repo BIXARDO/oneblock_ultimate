@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:premium_scrap",
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_block"
+        },
+        "title": {
+            "text": "Pure Flex"
+        },
+        "description": {
+            "text": "(Craft a netherite block) You made this solely to brag. Fair"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:netherite_block"
+            }
+        }
+    }
+}

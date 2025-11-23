@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:block_of_forever",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanting_table"
+        },
+        "title": {
+            "text": "Arcane Ikea"
+        },
+        "description": {
+            "text": "(Craft an enchantment table) Assembly required. Magic sold separately"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:enchanting_table"
+            }
+        }
+    }
+}

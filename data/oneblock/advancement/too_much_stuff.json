@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:rock_on",
+    "display": {
+        "icon": {
+            "id": "minecraft:tuff"
+        },
+        "title": {
+            "text": "Too much sTuff"
+        },
+        "description": {
+            "text": "(Craft Tuff) Congratulations: You turned leftovers into geological disappointment"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "oneblock:tuff"
+            }
+        }
+    }
+}

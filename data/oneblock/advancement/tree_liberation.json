@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:wandering_business",
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_log"
+        },
+        "title": {
+            "text": "Tree Liberation"
+        },
+        "description": {
+            "text": "(Obtain wood) Freedom for wood, one block at a time"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:logs"
+                    }
+                ]
+            }
+        }
+    }
+}

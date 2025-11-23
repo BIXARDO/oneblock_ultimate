@@ -1,0 +1,176 @@
+{
+    "parent": "oneblock:zombie_doctor",
+    "display": {
+        "icon": {
+            "id": "minecraft:piglin_spawn_egg"
+        },
+        "title": {
+            "text": "Mercantile Mayhem"
+        },
+        "description": {
+            "text": "(Trade with a piglin) You just bought something with gold. Hope it was worth it"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "distract_piglin": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:piglin",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": "#minecraft:piglin_loved"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "head": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "chest": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "legs": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "feet": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:thrown_item_picked_up_by_entity"
+        },
+        "distract_piglin_directly": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:piglin",
+                            "flags": {
+                                "is_baby": false
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": "minecraft:gold_ingot"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "head": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "chest": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "legs": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "feet": {
+                                        "items": "#minecraft:piglin_safe_armor"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_interacted_with_entity"
+        }
+    }
+}

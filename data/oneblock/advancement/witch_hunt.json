@@ -1,0 +1,36 @@
+{
+    "parent": "oneblock:magical_gps",
+    "display": {
+        "icon": {
+            "id": "minecraft:witch_spawn_egg"
+        },
+        "title": {
+            "text": "Witch Hunt"
+        },
+        "description": {
+            "text": "(Go to the swamp hut) She’s brewing… and she’s mad"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:swamp_hut"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

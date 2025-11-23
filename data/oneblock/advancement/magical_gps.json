@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:blaze_boulevard",
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "title": {
+            "text": "Magical GPS"
+        },
+        "description": {
+            "text": "(Obtain an eye of ender) Now you can wander aimlessly toward the stronghold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye"
+                    }
+                ]
+            }
+        }
+    }
+}

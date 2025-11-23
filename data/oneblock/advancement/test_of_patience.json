@@ -1,0 +1,36 @@
+{
+    "parent": "oneblock:magical_gps",
+    "display": {
+        "icon": {
+            "id": "minecraft:trial_spawner"
+        },
+        "title": {
+            "text": "Test of Patience"
+        },
+        "description": {
+            "text": "(Go to the trial chambers) Hope you like puzzles, traps, and frustration"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:trial_chambers"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

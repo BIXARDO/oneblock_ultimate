@@ -1,0 +1,51 @@
+{
+    "parent": "oneblock:wandering_business",
+    "display": {
+        "icon": {
+            "id": "minecraft:birch_sapling"
+        },
+        "title": {
+            "text": "Arborist's Pride"
+        },
+        "description": {
+            "text": "(Obtain all type of woods) You can now make every stick imaginable"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:oak_sapling"
+                    },
+                    {
+                        "items": "minecraft:birch_sapling"
+                    },
+                    {
+                        "items": "minecraft:acacia_sapling"
+                    },
+                    {
+                        "items": "minecraft:cherry_sapling"
+                    },
+                    {
+                        "items": "minecraft:jungle_sapling"
+                    },
+                    {
+                        "items": "minecraft:spruce_sapling"
+                    },
+                    {
+                        "items": "minecraft:dark_oak_sapling"
+                    },
+                    {
+                        "items": "minecraft:pale_oak_sapling"
+                    }
+                ]
+            }
+        }
+    }
+}

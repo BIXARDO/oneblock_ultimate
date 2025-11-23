@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:mother_of_all_blocks",
+    "display": {
+        "icon": {
+            "id": "minecraft:mycelium"
+        },
+        "title": {
+            "text": "Dirty Fungus"
+        },
+        "description": {
+            "text": "(Craft Mycelium) Congratulations, you’ve perfected dirty alchemy"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "oneblock:mycelium"
+            }
+        }
+    }
+}

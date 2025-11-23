@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:vacation_in_fire",
+    "display": {
+        "icon": {
+            "id": "minecraft:lava_bucket"
+        },
+        "title": {
+            "text": "Hot Asset"
+        },
+        "description": {
+            "text": "(Obtain lava) Skyblock starts here"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lava_bucket"
+                    }
+                ]
+            }
+        }
+    }
+}

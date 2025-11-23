@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "minecraft:stone",
+    "R": "minecraft:diamond",
+    "B": "minecraft:lava_bucket"
+  },
+  "pattern": [
+    "SRS",
+    "RBR",
+    "SRS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_ore"
+  }
+}

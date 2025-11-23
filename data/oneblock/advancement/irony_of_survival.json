@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:first_victim",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_ingot"
+        },
+        "title": {
+            "text": "Irony of Survival"
+        },
+        "description": {
+            "text": "(Obtain iron) Something tells me this could bubble into greatness"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

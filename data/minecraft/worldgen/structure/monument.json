@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_overworld",
+  "step": "raw_generation",
+  "start_pool": "oneblock:oneblock_monument/start",
+  "size": 1,
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 45
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "axolotls": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:guardian",
+          "maxCount": 5,
+          "minCount": 3,
+          "weight": 5
+        },
+        {
+          "type": "minecraft:elder_guardian",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    },
+    "underground_water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

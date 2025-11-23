@@ -1,0 +1,36 @@
+{
+    "parent": "oneblock:dragons_playground",
+    "display": {
+        "icon": {
+            "id": "minecraft:purpur_block"
+        },
+        "title": {
+            "text": "Flying Loot"
+        },
+        "description": {
+            "text": "(Go to the end city) Shulker shells and pride"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:end_city"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

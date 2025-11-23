@@ -1,0 +1,65 @@
+{
+  "aquifers_enabled": false,
+  "disable_mob_generation": false,
+  "ore_veins_enabled": false,
+  "sea_level": 0,
+  "legacy_random_source": false,
+  "default_block": {
+    "Name": "minecraft:air"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air"
+  },
+  "noise": {
+    "min_y": 0,
+    "height": 256,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
+  "noise_router": {
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
+    "temperature": 0,
+    "vegetation": 0,
+    "continents": 0,
+    "erosion": 0,
+    "depth": 0,
+    "ridges": 0,
+    "final_density": 0,
+    "preliminary_surface_level": 0,
+    "vein_toggle": 0,
+    "vein_ridged": 0,
+    "vein_gap": 0
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "if_true": {
+          "type": "minecraft:y_above",
+          "anchor": {
+            "above_bottom": 16
+          },
+          "surface_depth_multiplier": 1,
+          "add_stone_depth": false
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        "type": "minecraft:condition"
+      },
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "minecraft:end_stone"
+        }
+      }
+    ]
+  }
+}

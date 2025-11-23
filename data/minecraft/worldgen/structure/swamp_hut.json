@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_overworld",
+  "step": "raw_generation",
+  "start_pool": "oneblock:oneblock_swamp_hut/start",
+  "size": 1,
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 65
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:witch",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    }
+  }
+}
+
+

@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:hold_my_tears",
+    "display": {
+        "icon": {
+            "id": "minecraft:water_bucket"
+        },
+        "title": {
+            "text": "Liquid Asset"
+        },
+        "description": {
+            "text": "(Obtain water) One drop at a time, the empire hydrates"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:water_bucket"
+                    }
+                ]
+            }
+        }
+    }
+}

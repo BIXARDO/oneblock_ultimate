@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:hot_asset",
+    "display": {
+        "icon": {
+            "id": "minecraft:cobblestone"
+        },
+        "title": {
+            "text": "Rock On"
+        },
+        "description": {
+            "text": "(Obtain cobblestone) Your empire now has a foundation… kind of"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        }
+    }
+}

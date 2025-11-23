@@ -1,0 +1,30 @@
+{
+    "parent": "oneblock:bone_collector",
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_ingot"
+        },
+        "title": {
+            "text": "Premium Scrap"
+        },
+        "description": {
+            "text": "(Obtain netherite) Four scraps, four gold, one panic attack"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

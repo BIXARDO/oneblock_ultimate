@@ -1,0 +1,26 @@
+{
+    "parent": "oneblock:block_of_forever",
+    "display": {
+        "icon": {
+            "id": "minecraft:netherrack"
+        },
+        "title": {
+            "text": "Vacation in Fire"
+        },
+        "description": {
+            "text": "(Go to the nether) Sunscreen won’t help"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travel": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_nether"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": "minecraft:calcite",
+    "B": "minecraft:basalt"
+  },
+  "pattern": [
+    "CB",
+    "BC"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:tuff"
+  }
+}
