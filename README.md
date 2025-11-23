@@ -28,14 +28,16 @@ By adding **special (and challenging) mechanics, recipes, drops and trades**, yo
 - [Drops](#drops)
 - [Trades](#trades)
 - [Sniffers](#sniffers)
+- [Advancements](#advancements)
 - [Starter Help](#starter-help)
 - [Additional Features](#additional-features)
 - [Credits](#credits)
 
 
-## ⚙️ Mechanics
 
-### 🔥 Lava
+## Mechanics
+
+### Lava
 
 You can obtain **lava** similarly to how you obtain clay from mud and pointed dripstone: 
 
@@ -46,7 +48,7 @@ You can obtain **lava** similarly to how you obtain clay from mud and pointed dr
 <p align="center"><img src="images/mechanics/magma_to_netherrack.png" alt="Magma Block to Netherrack" width="256"></p>
 ⚠️ Only work's in the nether
 
-### 🐷 Curing Piglin Zombification
+### Curing Piglin Zombification
 
 You can **cure a zombified piglin** similarly to how you cure a zombie villager:
 
@@ -65,7 +67,7 @@ You can **cure a zombified piglin** similarly to how you cure a zombie villager:
 ⚠️ However, **piglins outside the Nether** don’t last long before turning back into zombified piglins.
 
 
-### 🗝️ Resetting Trial Chamber Vaults
+### Resetting Trial Chamber Vaults
 
 You can reset trial chamber vaults simply by standing directly above them.
 This causes the vault to return to its unopened state, allowing you to use keys on it again.
@@ -75,7 +77,7 @@ This causes the vault to return to its unopened state, allowing you to use keys 
 ⚠️ Ensure your player hitbox is positioned directly over the vault for the reset to trigger.
 
 
-## 🏰 Structures
+## Structures
 The following **unique structures** exist only once in the world:
 
 - **Overworld:**
@@ -94,7 +96,7 @@ The following **unique structures** exist only once in the world:
   - End City: 1 Endstone, 1 Chrous Flower, 4 Shulker and 1 Dragon Head in a 16x16x16 bounding box.  
 
 
-## 📜 Recipes
+## Recipes
 
 <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
   <img src="images/recipes/calcite.png" width="256">
@@ -132,7 +134,7 @@ The following **unique structures** exist only once in the world:
 </div>
 
 
-## 💎 Drops
+## Drops
 
 | Mob | New Drops |
 |:---:|:---:|
@@ -147,7 +149,7 @@ The following **unique structures** exist only once in the world:
 | Cave Spider <br> <img src="images/mobs/150px-Cave_Spider_JE3_BE3.png" height="64"> | Cobweb <br> <img src="images/items/Invicon_Cobweb.png" width="32"> |
 
 
-## 💰 Trades
+## Trades
 
 | Mob | New Trades |
 |:---:|:---:|
@@ -155,7 +157,7 @@ The following **unique structures** exist only once in the world:
 | Piglin <br> <img src="images/mobs/150px-Piglin_JE1.png" height="64"> | Nether wart <br> <img src="images/items/ItemSprite_nether-wart.png" width="32"> |
 
 
-## 🐾 Sniffers
+## Sniffers
 <img src="images/mobs/150px-Sniffer_JE1.png" height="128">
 
 Sniffers can **search for items** in certain biomes or dimensions.  
@@ -175,7 +177,7 @@ Sniffers can **search for items** in certain biomes or dimensions.
 | Rib armor trim, Snout armor trim, Music disc pigstep <br> <img src="images/items/Invicon_Rib_Armor_Trim.png" width="32"> <img src="images/items/Invicon_Snout_Armor_Trim.png" width="32"> <img src="images/items/Invicon_Music_Disc_Pigstep.png" width="32"> | Nether |
 | Spire armor trim <br> <img src="images/items/Invicon_Spire_Armor_Trim.png" width="32"> | End |
 
-## 🎯 Advancements
+## Advancements
 
 <details>
   <summary>SPOILER: Click to expand</summary>
@@ -251,7 +253,7 @@ Sniffers can **search for items** in certain biomes or dimensions.
 
 </details>
 
-## 🛠️ Starter Help
+## Starter Help
 
 This package includes the starter help from Vanilla One Block to speed up the initial grind.
 The following features will apply until a player obtains an iron shovel.
@@ -264,13 +266,13 @@ The following features will apply until a player obtains an iron shovel.
 - Daytime will be skipped (unless there's a zombie in the world).
 - Once the shovel is obtained, it will continuously rain until 23 snow blocks are placed down.
 
-## 💡 Additional Features
+## Additional Features
 
 <img src="images/mobs/150px-Happy_Ghast_JE9.png" width="128">
 
 You can press the 'sprint' key (default 'L-Ctrl') while riding a Happy Ghast to make it go faster.
 
-## 🧰 Credits
+## Credits
 
 Created by BIXARDO
 💬 Feedback and suggestions are welcome!
