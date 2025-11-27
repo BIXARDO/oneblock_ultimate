@@ -19,4 +19,6 @@ data modify storage oneblock:start_block placed set value 1b
 
 execute in minecraft:overworld run tp @a 0 -63 0
 
+time set 13000
+
 advancement grant @a only oneblock:oneblock_ultimate

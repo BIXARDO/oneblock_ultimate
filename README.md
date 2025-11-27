@@ -255,16 +255,19 @@ Sniffers can **search for items** in certain biomes or dimensions.
 
 ## Starter Help
 
-This package includes the starter help from Vanilla One Block to speed up the initial grind.
-The following features will apply until a player obtains an iron shovel.
 
-- Over 80% of hostile mobs that spawn will be zombies.
-- All zombies will spawn with iron shovels, which will have a 80% chance of dropping with at least 25% durability left (63/250).
-- Jumping will cause the player to gain the Hunger effect (unless there's a zombie in the world).
-- Players will be reduced to 4 hearts when starving (initial starving damage deals 6 hearts instead of half a heart of damage).
-- Players will have full knockback resistance.
-- Daytime will be skipped (unless there's a zombie in the world).
-- Once the shovel is obtained, it will continuously rain until 23 snow blocks are placed down.
+
+In a vanilla OneBlock game, at the start you need to keep jumping until your hunger bar is empty. This leaves you with 2 hearts of health — just enough to jump into the void and die instantly, allowing a mob to spawn on the grass block.
+
+Players often create a backup at this point and repeatedly reload it to keep jumping into the void until a zombie with a shovel appears.
+
+This process is time-consuming and tedious, requiring manual movement of save files in the .minecraft folder. It also makes recording timelapses with mods like Flashback difficult, since the world must be reloaded over and over.
+
+This datapack offers a simple solution: the void (Y < –128) kills you instantly until you obtain a shovel. This eliminates the need to reload the world repeatedly and makes recording timelapses much easier.
+
+✅ Instakill below height –128
+
+⚠️ Automatically deactivates after obtaining a shovel
 
 ## Additional Features
 
