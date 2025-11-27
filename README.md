@@ -263,9 +263,11 @@ Players often create a backup at this point and repeatedly reload it to keep jum
 
 This process is time-consuming and tedious, requiring manual movement of save files in the .minecraft folder. It also makes recording timelapses with mods like Flashback difficult, since the world must be reloaded over and over.
 
-This datapack offers a simple solution: the void (Y < –128) kills you instantly until you obtain a shovel. This eliminates the need to reload the world repeatedly and makes recording timelapses much easier.
+This datapack offers a simple solution: the void (Y < –128) kills you instantly until you obtain a shovel. This eliminates the need to reload the world repeatedly and makes recording timelapses much easier. It also skips the daytime, so mobs can spawn all time.
 
-✅ Instakill below height –128
+ℹ️ Instakill below height –128 and skips daytime
+
+ℹ️ Daytime doesn't skip when there's a zombie
 
 ⚠️ Automatically deactivates after obtaining a shovel
 
